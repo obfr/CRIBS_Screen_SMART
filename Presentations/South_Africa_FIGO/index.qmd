@@ -1,0 +1,308 @@
+---
+title: Screen SMART
+subtitle: Multi-modal prediction of major pregnancy complications
+authors:
+  - name: Dr Omar B Forge Risk
+    affiliation: King's College London (Wellcome Trust), Imperial College London (NIHR)
+    roles: Wellcome Trust CREATE Fellow \n NIHR Academic Clinical Fellow
+    corresponding: Omar.Risk@kcl.ac.uk
+format:
+  revealjs:
+    css: style.css
+theme: serif
+bibliography: references.bib
+---
+
+## What's the scale of the problem?
+
+MMR per 100,000 births. Population attributable fraction of [preeclampsia]{style="color:purple;"} and [haemorrhage]{style="color:red;"}.[^1]
+
+[^1]: @knight2025; @hollier2024; @shafiq2024
+
+::::::::: {.columns style="text-align:center"}
+:::: {.column width="33%"}
+::: fragment
+![](images/gb.svg){width="25%"}\
+![](images/UK_MMR.svg)
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+![](images/zm.svg){width="25%"}\
+![](images/ZM_MMR.svg)
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+![](images/sl.svg){width="25%"}\
+![](images/SL_MMR.svg)
+:::
+::::
+:::::::::
+
+## Haemoglobin: the starting point
+
+::::::: {.columns style="text-align:center"}
+::::: {.column width="50%"}
+![](images/sl.svg){width="25%"}
+
+::: r-stack
+![](images/blood1.png){width="50%"}
+
+![](images/blood2.png){.fragment width="50%"}
+
+![](images/blood3.png){.fragment width="50%"}
+:::
+
+::: fragment
+2% routine Hb\
+70% anaemic
+:::
+:::::
+
+::: {.column width="50%"}
+![](images/feso4.png){.fragment width="50%"}
+:::
+:::::::
+
+## Preeclampsia is predictable
+
+::::::::: {.columns style="text-align:center"}
+:::: {.column width="33%"}
+::: fragment
+![](images/NICE.png){width="100%"}\
+![](images/gb.svg){width="25%"}\
+![](images/MatFac.svg){width="25%"}\
+Detection rate: 40%
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+![](images/papaya.png){width="50%"}\
+![](images/sl.svg){width="25%"}\
+![](images/MatFac.svg){width="25%"}\
+Detection rate: \~5%
+:::
+::::
+
+:::: {.column width="33%"}
+::: fragment
+![](images/FMF.png){width="100%"}\
+![](images/gb.svg){width="25%"}\
+![](images/MatFac.svg){width="25%"} ![](images/CRADLE.png){width="15%"}![](images/PLGF.png){width="25%"}![](images/UtA.png){width="15%"}\
+Detection rate: 70%
+:::
+::::
+:::::::::
+
+## Preeclampsia is preventable
+
+::::::::: {.columns style="text-align:center"}
+::::: {.column width="50%"}
+::: fragment
+![](images/aspirin.png){width="70%"}
+:::
+
+::: fragment
+![](images/sl.svg){width="25%"} ![](images/zm.svg){width="25%"}\
+Uptake \~ 2%
+:::
+:::::
+
+:::: {.column width="50%"}
+::: fragment
+![](images/aspirin_prevention.png){width="100%"}\
+@rolnik2017
+:::
+::::
+
+::: fragment
+Early prediction enables us to target aspirin to delay severe preeclampsia and save lives.
+:::
+:::::::::
+
+## Screen SMART [preeclampsia]{style="color:purple;"}
+
+::::::::::::: {.columns style="text-align:center"}
+:::: {.column width="20%"}
+::: fragment
+![](images/MatFac.svg)
+:::
+::::
+
+:::: {.column width="20%"}
+::: fragment
+![](images/rapid.png){width="100%"}
+:::
+::::
+
+:::: {.column width="20%"}
+::: fragment
+![](images/PLGF.png){width="100%"}
+:::
+::::
+
+:::: {.column width="20%"}
+::: fragment
+![](images/GlyFn.png){width="100%"}
+:::
+::::
+
+:::: {.column width="20%"}
+::: fragment
+![](images/POCUS.png){width="100%"}
+:::
+::::
+:::::::::::::
+
+::::::: {.columns style="text-align:center"}
+:::: {.column width="50%"}
+::: fragment
+![](images/AUROC.png){width="70%"}\
+:::
+::::
+
+:::: {.column width="50%"}
+::: fragment
+![](images/stages.png){width="70%"}\
+@wright2019
+:::
+::::
+:::::::
+
+## Screen SMART [anaemia]{style="color:red;"}
+
+::::::::: {.columns style="text-align:center"}
+:::: {.column width="25%"}
+::: fragment
+![](images/rapid.png){width="100%"}\
+Shock index
+:::
+::::
+
+:::: {.column width="25%"}
+::: fragment
+![](images/gazelle.png){width="100%"}\
+Fe\
+HbSS\
+β-thal
+:::
+::::
+
+:::: {.column width="25%"}
+::: fragment
+![](images/who-colour.png){width="60%"}\
+Digital anaemia colour scale
+:::
+::::
+
+:::: {.column width="25%"}
+::: fragment
+![](images/POCHb.png){width="40%"}\
+POC Hb
+:::
+::::
+:::::::::
+
+## Study
+
+::::::::: {.columns style="font-size: 65%"}
+:::: {.column width="50%"}
+::: fragment
+**Population**
+
+-   n = 10,000
+
+-   Unselected early pregnancy cohort
+
+-   EGA \< 20/40
+
+-   Singleton pregnancy
+
+-   Age 16+
+:::
+::::
+
+:::::: {.column width="50%"}
+::::: fragment
+**Sites & Facilities**
+
+::: {.column width="50%" style="text-align:center"}
+![](images/sl.svg){width="25%"}\
+n = 5,000\
+3 hospital\
+40 community
+:::
+
+::: {.column width="50%" style="text-align:center"}
+![](images/zm.svg){width="25%"}\
+n = 5,000\
+4 hospital\
+42 community
+:::
+:::::
+::::::
+:::::::::
+
+::::::: {.columns style="font-size: 65%"}
+:::: {.column width="50%"}
+::: fragment
+**Aims**: Screen SMART [**anaemia**]{style="color:red;"}
+
+-   Product development
+
+-   Test validation
+
+-   Implementation potential
+:::
+::::
+
+:::: {.column width="50%"}
+::: fragment
+**Aims**: Screen SMART [**preeclampsia**]{style="color:purple;"}
+
+-   Product development
+
+-   Test validation
+
+-   Feasible & accurate, prediciton
+:::
+::::
+:::::::
+
+## Acknowledgements
+
+Supervisors:
+
+-   **Dr Antonio de Marvao**
+
+-   Prof Bellington Vwalika
+
+-   Dr Kate Bramham
+
+-   Dr Alex Ridout
+
+-   Prof Andrew Shennan
+<div style="height:1.2rem"></div>
+::::::::::::: {.columns style="text-align:center"}
+:::: {.column width="20%"}
+![](images/KCL.png)
+::::
+:::: {.column width="20%"}
+![](images/UnZa.svg)
+::::
+:::: {.column width="20%"}
+![](images/zambart.png)
+::::
+:::: {.column width="20%"}
+![](images/CREATE.png)
+::::
+:::: {.column width="20%"}
+![](images/NIHR.png)
+::::
+:::::::::::::
+
+## References
